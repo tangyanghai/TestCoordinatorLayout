@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:tag="top"
+        android:layout_height="200dp"/>
+
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="com.tyh.java.myapplication.coordinatorLayout.behaviors.TopViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+           <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_green_dark" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

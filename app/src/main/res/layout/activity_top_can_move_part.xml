@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="标题" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/sr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:elevation="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textColor="@android:color/white"
+                    android:text="功能区"
+                    android:textSize="26sp"
+                    android:background="@android:color/darker_gray"
+                    app:layout_scrollFlags="scroll|snap" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/sc_solid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_solid"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:text="日历部分"
+                            android:textSize="26sp"
+                            android:textColor="@android:color/white"
+                            android:background="@android:color/holo_orange_dark"
+                            android:onClick="onViewClicked" />
+                    </LinearLayout>
+                </android.support.v4.widget.NestedScrollView>
+
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="“你有权利的，自己可以争取的，你要相信自己，你不一定这辈子也被男人控制，” 来自沙特阿拉伯姐妹里姆（Reem）与拉万（Rawan）在她们躲藏的香港酒店向BBC中文诉说着自由的宝贵。“现在的生活可能很艰难，但无论如何，请不要放弃，不要把胜利断送在那些压迫你的人。”
+
+这对姐妹来自沙特一个极为保守、重男轻女的家庭，兄妹七人上面有两个哥哥。在家中曾被虐打，被当成家里的佣工，未来很可能被迫嫁给自己不喜欢的男子。
+
+为了前往一个不再受压迫的国家，两人在半年前计划离家出走，前往澳大利亚寻求庇护，重获新生，但岂料路途并不顺利。在香港机场，她们怀疑因遭遇来自沙特使领馆职员的介入，无法登上前往澳洲的航班，最终滞留香港半年，过着提心吊胆、不断搬家的难民般的生活。
+
+尽管自己的未来仍然不明朗，也未知有没有国家愿意收留她们，但她们不再受罩袍所约束、不再会有人管她们吃什么、穿什么，也可以自由与家族以外的男性沟通。
+
+“我们感到自由，可以自由的走动，外人可以接触我们，看见我们的容貌，我们不再是活在阴影之下，”她们对BBC中文说，“我们希望可以到一个尊重女性和人权的国家。”
+
+两人对外宣称已脱离伊斯兰教，但在沙特，这个行为或构成叛教罪，最重刑罚是死刑。
+
+无论怎样，这条路已经无回头路可走。
+
+沙特允许女性驾车 女权获历史性突破
+沙特女性仍不能独立做这五件事
+联合国认定逃离沙特的女孩库农为难民
+我在沙特王宫教英文：调皮的王子和密集的监视\n“你有权利的，自己可以争取的，你要相信自己，你不一定这辈子也被男人控制，” 来自沙特阿拉伯姐妹里姆（Reem）与拉万（Rawan）在她们躲藏的香港酒店向BBC中文诉说着自由的宝贵。“现在的生活可能很艰难，但无论如何，请不要放弃，不要把胜利断送在那些压迫你的人。”
+
+这对姐妹来自沙特一个极为保守、重男轻女的家庭，兄妹七人上面有两个哥哥。在家中曾被虐打，被当成家里的佣工，未来很可能被迫嫁给自己不喜欢的男子。
+
+为了前往一个不再受压迫的国家，两人在半年前计划离家出走，前往澳大利亚寻求庇护，重获新生，但岂料路途并不顺利。在香港机场，她们怀疑因遭遇来自沙特使领馆职员的介入，无法登上前往澳洲的航班，最终滞留香港半年，过着提心吊胆、不断搬家的难民般的生活。
+
+尽管自己的未来仍然不明朗，也未知有没有国家愿意收留她们，但她们不再受罩袍所约束、不再会有人管她们吃什么、穿什么，也可以自由与家族以外的男性沟通。
+
+“我们感到自由，可以自由的走动，外人可以接触我们，看见我们的容貌，我们不再是活在阴影之下，”她们对BBC中文说，“我们希望可以到一个尊重女性和人权的国家。”
+
+两人对外宣称已脱离伊斯兰教，但在沙特，这个行为或构成叛教罪，最重刑罚是死刑。
+
+无论怎样，这条路已经无回头路可走。
+
+沙特允许女性驾车 女权获历史性突破
+沙特女性仍不能独立做这五件事
+联合国认定逃离沙特的女孩库农为难民
+我在沙特王宫教英文：调皮的王子和密集的监视" />
+                    </LinearLayout>
+
+                </android.support.v4.widget.NestedScrollView>
+            </LinearLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

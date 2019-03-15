@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bt_moving_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="跟随移动的按钮" />
+
+    <Button
+        android:id="@+id/bt_top_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="顶部滑动+标题透明+图片缩放" />
+
+    <Button
+        android:id="@+id/bt_top_can_move_part_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="接单易--订单--滑动预研" />
+
+    <Button
+        android:id="@+id/bt_move_in_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="顶部滑入滑出" />
+
+</LinearLayout>
