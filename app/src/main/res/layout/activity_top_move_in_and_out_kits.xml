@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:tag="bottom_in"
-        app:layout_behavior="com.tyh.java.myapplication.behaviors.MoveBehavior">
+        app:layout_behavior="com.tyh.java.myapplication.coordinatorLayout.behaviors.MoveBehavior">
 
         <LinearLayout
             android:layout_width="match_parent"
